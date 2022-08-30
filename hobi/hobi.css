@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Kalam&family=Kaushan+Script&family=Mali&family=Righteous&family=Sriracha&display=swap');
+
+
+*{
+    margin: 0;
+}
+ /* ini bagian header */
+
+header {
+    background-color: #7858A6;
+    height: 70px;
+}
+
+header h1{
+   padding: 10px; 
+   text-align: center;
+   font-family: 'Kaushan Script', cursive;
+   color: #ffffff;
+   font-size: 35px;
+}
+
+
+/* ini bagian deskripsi */
+
+.deskripsi{
+    background-color: #b3a2ca;
+    height: 585px;
+}
+.deskripsi p{
+    font-family: 'Kalam', cursive;
+    margin-left: 30px;
+    font-size: 25px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+}
+
+.awal{
+    padding-top: 30px;
+
+}
+
+.imgtv {
+    height: 300px;
+    width: 350px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.tmbl {
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    padding: 20px;
+    width: 100px;
+    background-color: #2D31FA;
+    color: #19ffe0;
+    border-radius: 20px ;
+    border: 2px solid rgb(255, 255, 255);
+    float: right;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    transition: all 0.4s ease;
+}
+
+.tmbl:hover{
+    background-color: #d63939;
+    color: #cecece;
+    border-radius: 20px ;
+    border: 2px solid rgb(2, 1, 1);
+
+}

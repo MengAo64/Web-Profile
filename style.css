@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Kaushan+Script&family=Mali&family=Righteous&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+}
+
+/*  Bagian Navbar */
+header{
+    position: sticky;
+    top: 0;
+}
+.nama {
+    margin-bottom: 13px;
+    font-family:  cursive;
+    color: white;
+}
+.navbar li{
+    display: inline-block;
+}
+
+.navbar {
+    padding-top: 1px ;
+    padding-bottom: 10px;
+    background-color: #3D3C42;
+    text-align: center;
+    border-bottom: 2px solid black ;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #A6D1E6;
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.4s ease;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.navbar a:hover {
+    color: red;
+    padding: 10px;
+    
+}
+
+/* Bagian Home */
+
+#home {
+    background-color: #7F5283;
+}
+.home h1{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Righteous', cursive;
+    color: #FFE9AE;
+}
+.t1 {
+    padding-top: 180px;
+}
+.t2 {
+    padding-bottom: 320px;
+}
+
+/*  Masuk Ke bagian Biodata */
+
+.about {
+    background-color: #F1A661;
+    height: 500px;
+    padding-bottom: 160px;
+}
+.about h1{
+    padding-top: 95px;
+    text-decoration: underline #A27B5C;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    font-family: cursive;
+    font-size: 50px;
+    color: rgb(170, 100, 100);
+
+}
+.about img{
+    height: 350px;
+    float: right;
+    margin-top: -20px;
+
+}
+
+.about p{
+    margin-left: 17px;
+    font-family: 'Righteous', cursive;
+    font-size: 28px;
+    color: #D1512D;
+    margin-bottom: 10px;
+}
+
+
+/* ini bagian portofolio */
+
+.hobi {
+    background-color: #FECD70;
+    padding-bottom: 110px;
+}
+
+.hobi h1{
+    text-align: center;
+    padding-top: 115px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    color: rgb(170, 100, 100);
+}
+.hobi h3{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: 'Sriracha', cursive;
+    color: #102452;
+}
+
+.hobi ul ,ol{
+    margin-left: 150px;
+    text-align: left;
+}
+
+
+
+.hobi li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: cursive;
+    transition: all 0.4s ease;
+    color: #607EAA;
+}
+
+.hobi li a:hover{
+    font-size: 20px;
+    padding: 25px;
+    text-decoration: none;
+    font-family: cursive;
+    color: #1C3879;
+}
